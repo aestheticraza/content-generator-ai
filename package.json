@@ -10,12 +10,15 @@
   },
   "dependencies": {
     "@ai-sdk/openai": "^3.0.26",
+    "@ai-sdk/react": "^3.0.80",
     "@radix-ui/react-dropdown-menu": "^2.1.16",
     "@radix-ui/react-tabs": "^1.1.13",
     "@radix-ui/react-toast": "^1.2.15",
     "@vercel/kv": "^3.0.0",
     "ai": "^6.0.78",
+    "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
+    "framer-motion": "^12.34.0",
     "html2canvas": "^1.4.1",
     "jspdf": "^4.1.0",
     "lucide-react": "^0.563.0",
@@ -24,7 +27,8 @@
     "openai": "^6.19.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "react-hot-toast": "^2.6.0"
+    "react-hot-toast": "^2.6.0",
+    "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
